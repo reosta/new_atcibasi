@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ana_sayfa"
+            android:icon="@drawable/ic_ana_sayfa"
+            android:title="@string/menu_ana_sayfa" />
+        <item
+            android:id="@+id/nav_hesap_modul"
+            android:icon="@drawable/ic_hesap_mod"
+            android:title="@string/menu_hesap_modul" />
+        <item
+            android:id="@+id/nav_konuk_tahmin1"
+            android:icon="@drawable/ic_konuk"
+            android:title="@string/menu_konuk_tahmin1" />
+        <item
+            android:id="@+id/nav_konuk_tahmin2"
+            android:icon="@drawable/ic_konuk"
+            android:title="@string/menu_konuk_tahmin2" />
+        <item
+            android:id="@+id/nav_nasil_oynanir"
+            android:icon="@drawable/ic_bilgi"
+            android:title="@string/menu_nasil_oynanir" />
+        <item android:id="@+id/nav_hakkinda"
+            android:icon="@drawable/ic_hakkinda"
+            android:title="@string/menu_hakkinda"/>
+    </group>
+    <item android:title="Admin Panel">
+        <menu>
+            <item android:id="@+id/nav_admin_panel"
+                android:title="@string/menu_admin_PANEL"
+                android:icon="@drawable/ic_admin" />
+        </menu>
+    </item>
+</menu>

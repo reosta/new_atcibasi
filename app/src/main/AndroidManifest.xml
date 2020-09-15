@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atcibasi.new_atcibasi">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.atcibasi.new_atcibasi.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.atcibasi.new_atcibasi.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.atcibasi.new_atcibasi.post.KonukTahmin2Paylasim"
+            android:label="@string/title_activity_konuk_tahmin2_paylasim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.atcibasi.new_atcibasi.post.KonukTahmin1Paylasim"
+            android:label="@string/title_activity_konuk_tahmin1_paylasim"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.atcibasi.new_atcibasi.post.PostActivity"
+            android:label="@string/title_activity_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1124068966706309~6580389758" />
+        <meta-data
+            android:value="true"
+            android:name="ADMOB_ALLOW_LOCATION_FOR_ADS"/>
+    </application>
+</manifest>

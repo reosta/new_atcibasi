@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_ana_sayfa">
+
+    <fragment
+        android:id="@+id/nav_ana_sayfa"
+        android:name="com.atcibasi.new_atcibasi.ui.AnaSayfaFragment"
+        android:label="@string/fraglabel_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa">
+        <action
+            android:id="@+id/action_nav_ana_sayfa_to_nav_konuk_tahmin"
+            app:destination="@id/nav_konuk_tahmin1" />
+        <action
+            android:id="@+id/action_nav_ana_sayfa_to_nav_konuk_tahmin2"
+            app:destination="@id/nav_konuk_tahmin2"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_hesap_modul"
+        android:name="com.atcibasi.new_atcibasi.ui.HesapModulFragment"
+        android:label="@string/fraglabel_hesap_modul"
+        tools:layout="@layout/fragment_hesap_modul" >
+        <action
+            android:id="@+id/action_nav_hesap_modul_to_nav_nasil_oynanir"
+            app:destination="@id/nav_nasil_oynanir" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_konuk_tahmin1"
+        android:name="com.atcibasi.new_atcibasi.ui.KonukTahmin1Fragment"
+        android:label="@string/fraglabel_konuk_tahmin1"
+        tools:layout="@layout/fragment_konuk_tahmin1" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_konuk_tahmin2"
+        android:name="com.atcibasi.new_atcibasi.ui.KonukTahmin2Fragment"
+        android:label="@string/fraglabel_konuk_tahmin2"
+        tools:layout="@layout/fragment_konuk_tahmin2" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_nasil_oynanir"
+        android:name="com.atcibasi.new_atcibasi.ui.NasilOynanirFragment"
+        android:label="@string/fraglabel_nasil_oynanir"
+        tools:layout="@layout/fragment_nasil_oynanir" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_hakkinda"
+        android:name="com.atcibasi.new_atcibasi.ui.Hakkinda"
+        android:label="@string/fraglabel_hakkinda"
+        tools:layout="@layout/fragment_hakkinda"></fragment>
+
+    <fragment
+        android:id="@+id/nav_admin_panel"
+        android:name="com.atcibasi.new_atcibasi.ui.AdminPanelFragment"
+        android:label="@string/fraglabel_admin_panel"
+        tools:layout="@layout/fragment_admin_panel" >
+    </fragment>
+</navigation>

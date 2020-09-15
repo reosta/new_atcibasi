@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AtçıBaşı</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">At Yarışı Bir Tutkudur</string>
+    <string name="nav_header_subtitle">twitter.com/Atcibasi @Atcibasi</string>
+    <string name="nav_header_desc">ATÇI BAŞI</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_ana_sayfa">Ana Sayfa</string>
+    <string name="menu_hesap_modul">İkramiye Hesapla</string>
+    <string name="menu_konuk_tahmin1">Konuk Tahmin-1</string>
+    <string name="menu_konuk_tahmin2">Konuk Tahmin-2</string>
+    <string name="menu_nasil_oynanir">Nasıl Hesaplanır</string>
+    <string name="menu_admin_PANEL">Admin Panel</string>
+    <string name="menu_hakkinda">Hakkında</string>
+
+    <!--fragment label-->
+    <string name="fraglabel_ana_sayfa">Ana Sayfa</string>
+    <string name="fraglabel_hesap_modul">Hesap Sihirbazı</string>
+    <string name="fraglabel_konuk_tahmin1">Konuk Tahmin-1</string>
+    <string name="fraglabel_konuk_tahmin2">Konuk Tahmin-2</string>
+    <string name="fraglabel_nasil_oynanir">Nasıl Hesaplanır!!!</string>
+    <string name="fraglabel_hakkinda">Uygulama Hakkında</string>
+    <string name="fraglabel_admin_panel">Yönetici Girişi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_post">Paylaşım Ekranı</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_konuk_tahmin1_paylasim">KonukTahmin1Paylasim</string>
+
+    <string name="title_activity_konuk_tahmin2_paylasim">KonukTahmin2Paylasim</string>
+    <!--fragment label-->
+    <string name="nasil_oynanir_text">1-)6 lı Ganyan için her ayağa kazanan atın agf tablosundaki% lik değerini giriniz. At çıkan ayaklarda agf 1.At kazanmışsa,  kazançlı sayılacak  koşmayan atların yüzdelerini de 1.At üzerine ilave edin.</string>
+    <string name="nasil_oynanir_text2">  2-)Eğer 6 lı ve 5 li ganyan tahmini ikramiyesini hesaplamak istiyorsanız, Oran seçim alanından 0.07 değerini seçin ve
+        5 li Ganyan tahmini ikramiyesini hesaplamak  için 1.Ayak(AGF) kısmını boş bırakın.</string>
+    <string name="nasil_oynanir_text3">3-)4 lü Ganyan hesaplamak istiyorsanız, Oran seçim alanından 0.15 değerini seçin. </string>
+    <string name="nasil_oynanir_text4">4-)3 lü Ganyan hesaplamak istiyorsanız, Oran seçim alanından 0.10 değerini seçin. </string>
+    <string name="nasil_oynanir_text5"> 5-) Doğu illeri ve yabancı yarış hesaplamaları Oran seçim alanından 0,05 değerini seçin. </string>
+    <string name="splash_text">"ATÇIBAŞI'NA HOŞ GELDİNİZ"</string>
+    <string name="splash_image_desc">image</string>
+
+    <string name="hakkinda_text">Bu uygulamada yer alan at yarışı bahis oyunu hesaplama modülü ve parasal netice tahminleri
+        ve atların agf oranlarına bağlı olarak, oynanma yüzdesi baz alınarak, oranlama amacıyla hesaplanmaktadır. Asıl olan,
+    At yarışlarını oynatan kurum (TJK) Tarafından açıklanan gerçek ikramiye sonuçlarıdır ve bu uygulamadaki tahminler asla gerçek neticelere emsal olarak kullanılamaz.</string>
+    <string name="hakinda_text2">Bu uygulama yarış severlere ve at yarışı oyuncularına yardımcı olmak için tasarlanmış olup, Bahis oyunlarına karşı
+        özendirici ve teşvik bir içerik barındırmamaktadır. Ayrıca oyuncuların hesap modülünü kullanarak yapacakları farklı
+    hesaplamalardan dolayı oluşabilecek maddi kayıplarından sorumlu tutulamaz.</string>
+</resources>
+
